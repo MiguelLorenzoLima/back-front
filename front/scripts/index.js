@@ -22,6 +22,12 @@ async function buscarTodos(){
     const data = await response.json()
 
     console.log(data)
+    const lista = document.getElementById('listaUsuarios')
+    lista.innerHTML = ""
+
+    data.pessoa.forEach(pessoa => {
+        console.log(pessoa)
+    })
 }
 
 
