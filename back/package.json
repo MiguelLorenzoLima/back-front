@@ -1,0 +1,25 @@
+{
+  "name": "notas-de-estudos-ads",
+  "version": "1.0.0",
+  "description": "Minha primeira api",
+  "homepage": "https://github.com/Deneeerr/notas-de-estudos-ads#readme",
+  "bugs": {
+    "url": "https://github.com/Deneeerr/notas-de-estudos-ads/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deneeerr/notas-de-estudos-ads.git"
+  },
+  "license": "ISC",
+  "author": "Bernardo Correa",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0"
+  }
+}
